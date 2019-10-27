@@ -1,0 +1,47 @@
+{
+  "menu": [
+    {
+      "id": "tools",
+      "submenu": [
+        {
+          "label": "ux",
+          "id": "tools.staruml-ux",
+          "submenu": [
+            {
+              "label": "Import Locations",
+              "id": "tools.staruml-ux.import-locations",
+              "submenu": [
+                {
+                  "label": "Import Display Locations",
+                  "id": "tools.staruml-ux.import-commands.importDisplayLocations",
+                  "command": "staruml-ux:import-commands.import-display-locations"
+                },
+                {
+                  "label": "Import Object Locations",
+                  "id": "tools.staruml-ux.import-commands.importObjectLocations",
+                  "command": "staruml-ux:import-commands.import-object-locations"
+                }
+              ]
+            },
+            {
+              "label": "Export Locations",
+              "id": "tools.staruml-ux.export-locations",
+              "submenu": [
+                {
+                  "label": "Export Display Locations",
+                  "id": "tools.staruml-ux.export-commands.exportDisplayLocations",
+                  "command": "staruml-ux:export-commands.export-display-locations"
+                },
+                {
+                  "label": "Export Object Locations",
+                  "id": "tools.staruml-ux.export-commands.exportObjectLocations",
+                  "command": "staruml-ux:export-commands.export-object-locations"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

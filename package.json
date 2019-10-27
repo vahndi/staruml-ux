@@ -1,0 +1,22 @@
+{
+    "name": "staruml-ux",
+    "title": "star_uml_ux",
+    "description": "ux library",
+    "homepage": "https://github.com/vahndi/staruml-ux",
+    "version": "1.0.0",
+    "author": {
+        "name": "Vahndi Minah",
+        "email": "vahndi.minah@gmail.com",
+        "url": "https://github.com/vahndi"
+    },
+    "license": "MIT",
+    "engines": {
+        "staruml": ">=2.0.0"
+    },
+    "dependencies": {
+        "eslint": "^5.7.0",
+        "jquery": "^3.3.1",
+        "jsdoc": "^3.5.5",
+        "require": "^2.4.20"
+    }
+}
