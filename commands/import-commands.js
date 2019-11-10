@@ -36,11 +36,11 @@ function importObjectLocations() {
         $.each(locations, function(iLocation, location) {
             if(appView.model.name === location.index) {
                 appView.model.name = location.name;
-                if (location.hasOwnProperty('fillColor')) {
-                    appView.fillColor = location.fillColor;
+                if (location.hasOwnProperty('fill_color')) {
+                    appView.fillColor = location.fill_color;
                 }
-                if (location.hasOwnProperty('fontColor')) {
-                    appView.fontColor = location.fontColor;
+                if (location.hasOwnProperty('font_color')) {
+                    appView.fontColor = location.font_color;
                 }
             }
         })
